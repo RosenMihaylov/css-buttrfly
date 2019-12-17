@@ -1,0 +1,130 @@
+#flower1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 200px;
+  width: 200px;
+  animation-duration: 16s;
+  animation-name: flower1;
+}
+#flower2 {
+  position: absolute;
+  left: 980px;
+  bottom: 600px;
+  height: 200px;
+  width: 200px;
+  animation-duration: 12s;
+  animation-delay: 4s;
+}
+#flower3 {
+  position: absolute;
+  left: 0;
+  bottom: 600px;
+  height: 200px;
+  width: 200px;
+  animation-duration: 8s;
+  animation-delay: 8s;
+}
+#flower4 {
+  position: absolute;
+  left: 980px;
+  bottom: 0;
+  height: 200px;
+  width: 200px;
+  animation-duration: 4s;
+  animation-delay: 12s;
+}
+.fc {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: radial-gradient(
+    circle,
+    #ffffff,
+    #fff5ff,
+    #ffe9ed,
+    #ffe2cc,
+    #ffe4ac,
+    #ffe898,
+    #fcee84,
+    #f3f570,
+    #f2f65f,
+    #f1f74b,
+    #f0f833,
+    #eff900
+  );
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: table;
+  z-index: 1;
+}
+.fc span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.petal4,
+.petal3,
+.petal2,
+.petal1 {
+  height: 100px;
+  width: 100px;
+
+  border: 1px solid #0000ff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.petal1 {
+  margin: 0px auto auto 0px;
+  border-radius: 50% 50% 0 50%;
+  background-image: linear-gradient(
+    to left top,
+    #ffffff,
+    #f8f1fc,
+    #f8e1f3,
+    #fcd0e2,
+    #ffc0cb
+  );
+}
+.petal2 {
+  margin: 0px 0px auto auto;
+  border-radius: 50% 50% 50% 0%;
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #f8f1fc,
+    #f8e1f3,
+    #fcd0e2,
+    #ffc0cb
+  );
+}
+.petal3 {
+  margin: auto auto 0px 0px;
+  border-radius: 50% 0% 50% 50%;
+  background-image: linear-gradient(
+    to left bottom,
+    #ffffff,
+    #f8f1fc,
+    #f8e1f3,
+    #fcd0e2,
+    #ffc0cb
+  );
+}
+.petal4 {
+  margin: auto 0px 0px auto;
+  border-radius: 0% 50% 50% 50%;
+  background-image: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #f8f1fc,
+    #f8e1f3,
+    #fcd0e2,
+    #ffc0cb
+  );
+}

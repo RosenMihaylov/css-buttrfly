@@ -1,0 +1,18 @@
+/*grid*/
+@import url("reset.css");
+
+/*sections*/
+@import url("butterfly.css");
+@import url("flowers.css");
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: fixed;
+  max-height: 850px;
+  z-index: 500;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
